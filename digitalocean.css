@@ -1,0 +1,187 @@
+@font-face {
+    font-family: Roboto;
+    src: url("KFOmCnqEu92Fr1Mu4mxK.woff2")
+}
+
+body {
+    margin:0;
+    padding:0;
+    font-family: Roboto;
+    overflow-y:scroll
+}
+
+a {
+    text-decoration: inherit;
+    color:inherit
+}
+
+ul {
+    list-style-type: none;
+    padding:0;
+    margin:0;
+    display:flex;
+    align-items:center;
+    justify-content:space-around
+}
+
+.learn-more:hover, .lft a:hover {
+    color:blue
+}
+
+header {
+    background-color:white;
+    color: #5b6987;
+    position:fixed;
+    width:100%;
+    height:105px;
+    top:0
+}
+
+.header-a {
+    height:39px;
+    border-bottom: 1px solid #eaedf1 ;
+    display:flex;
+    justify-content:space-between;
+    align-items:center
+}
+
+.left {
+    display:flex;
+    justify-content:space-evenly;
+    align-items:center;
+    width:450px;
+    margin-left:20px
+}
+
+.new {
+    padding:3px 7px 3px 7px;
+    border-radius:5px;
+    background-color: #00d7d2;
+    font-size:10px;
+    color:black
+}
+
+.learn-more {
+font-size:13px
+}
+
+.right {
+    width:260px;
+    margin-right:10px;
+    font-size: 13px
+}
+
+.right li {
+    display:inline-block
+}
+
+
+.header-b {
+    height:66px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    box-shadow: 0px 0px 1px 0px rgb(192, 200, 216),0px 2px 2px rgba(192, 200, 216,0.3)
+}
+
+.lft {
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    width:865px;
+    margin-left:0px
+}
+
+.lft ul {
+    width: 575px;
+    align-items:center;
+    font-size:16px;
+    color:black
+}
+
+.lft ul li img {
+    margin:-7px 0 0 3px;
+}
+
+.logo {
+    margin-top:-6px
+}
+
+.f-container {
+    background-image: url("bg-home-1-d54581d7.jpg");
+    background-size: 100% 736px;
+    height: 736px;
+    margin-top: 105px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sub-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 1430px;
+    margin-top: -60px;
+}
+
+.welcome {
+    width:535px;
+    color:white;
+    margin-top:-20px
+}
+
+.welcome h1 {
+    font-size: 62px;
+font-weight: 1000;
+margin: 0;
+}
+
+.welcome p {
+    font-size: 24px;
+    line-height: 150%;
+    margin: 10px 0 0 0;
+}
+
+.sign-up {
+    width:380px;
+    height:431px;
+    background-color:white;
+    border-radius:5px;
+    display:flex;
+flex-direction:column;
+align-items:center;
+justify-content:center
+}
+
+.sign-up form {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    height: 240px;
+}
+
+.sign-up form > * {
+    display: block;
+    box-sizing: border-box;
+    width: 314px;
+    padding: 17px;
+    font-size: 15px;
+    height: 48px;
+}
+
+.sign-up form input[type="submit"] {
+    padding:10px
+}
+
+.sign-up form button {
+    padding: 10px;
+display: flex;
+align-items: center;
+justify-content: flex-start;
+}
+
+.sign-up button p {
+    margin-left:56px
+}
